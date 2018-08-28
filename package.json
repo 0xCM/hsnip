@@ -1,0 +1,25 @@
+{
+    "name": "vscode-0xcm-hsnip",
+    "displayName": "0xCM@hsnip",
+    "description": "Haskell Snippets",
+    "version": "0.0.1",
+    "publisher": "0xcm",
+    "repository": {
+        "type":"git",
+        "url": "http://"
+    },
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "haskell",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
